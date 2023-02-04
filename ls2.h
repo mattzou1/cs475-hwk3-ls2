@@ -8,5 +8,11 @@
 #define INDENT "    "
 
 // TODO: Function declarations here for ls2
+char * fullPathName(char* path, char* name); 
+
+void mode1(char path[], stack_t *s, int indent); 
+
+int mode2(char path[], char targetFile[], stack_t *s, int indent);
+
 
 #endif
